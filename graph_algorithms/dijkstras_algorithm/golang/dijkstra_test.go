@@ -17,8 +17,8 @@ var testTable = []struct {
 		graph: &Graph{
 			Size: 2,
 			Nodes: [][]*Edge{
-				[]*Edge{{1, 100}},
-				[]*Edge{{0, 100}},
+				{{1, 100}},
+				{{0, 100}},
 			},
 		},
 	},
@@ -30,9 +30,9 @@ var testTable = []struct {
 		graph: &Graph{
 			Size: 3,
 			Nodes: [][]*Edge{
-				[]*Edge{{1, 100}, {2, 200}},
-				[]*Edge{{0, 100}, {2, 50}},
-				[]*Edge{{0, 200}, {1, 50}},
+				{{1, 100}, {2, 200}},
+				{{0, 100}, {2, 50}},
+				{{0, 200}, {1, 50}},
 			},
 		},
 	},
@@ -44,8 +44,8 @@ var testTable = []struct {
 		graph: &Graph{
 			Size: 2,
 			Nodes: [][]*Edge{
-				[]*Edge{},
-				[]*Edge{},
+				{},
+				{},
 			},
 		},
 	},
